@@ -20,8 +20,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Nigerian Tech Talent · Reliable Code",
     badge: "Production Engineering",
     metricBadge: "Production-Ready",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male software engineer writing code on laptop in modern tech office",
+    image: "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&h=600&fit=crop&auto=format",
+    alt: "African software engineering team collaborating on system architecture and code in a modern office",
     teamNote: "Engineered in Nigeria for reliability, data integrity, and scalable business operations.",
     overview:
       "Dedicated full-stack software engineers building responsive web systems, internal operations portals, and resilient transactional databases tailored to your business rules.",
@@ -64,8 +64,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Fast, Responsive & Clear",
     badge: "Responsive Web Engineering",
     metricBadge: "High Performance",
-    image: "https://images.unsplash.com/photo-1758519288735-93631d504920?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male software engineers reviewing responsive web platform on laptop",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&auto=format",
+    alt: "Engineering team collaborating on responsive web design and frontend application on laptop",
     teamNote: "High-performance web applications built to load efficiently across networks and mobile devices.",
     overview:
       "Clean, responsive websites and authenticated portals designed for high user adoption, fast load times, and frictionless client self-service.",
@@ -130,8 +130,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Unified Systems · Automated Data Flow",
     badge: "Systems Integration",
     metricBadge: "Secure & Connected",
-    image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male backend engineer configuring payment and API integrations at modern desk with laptop",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop&auto=format",
+    alt: "Backend engineer workstation configuring payment APIs, webhooks, and database integrations on laptop and monitors",
     teamNote: "Connecting payment gateways, accounting tools, and internal systems securely.",
     overview:
       "Reliable integrations that connect disjointed software systems, payment gateways, and logistics providers with clean, documented APIs.",
