@@ -20,8 +20,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Nigerian Tech Talent · Reliable Code",
     badge: "Production Engineering",
     metricBadge: "Production-Ready",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male software engineer writing code on laptop in modern tech office",
+    image: "/images/hero-software-dev.jpg",
+    alt: "Young Nigerian male software engineer writing code on laptop in modern tech office",
     teamNote: "Engineered in Nigeria for reliability, data integrity, and scalable business operations.",
     overview:
       "Dedicated full-stack software engineers building responsive web systems, internal operations portals, and resilient transactional databases tailored to your business rules.",
@@ -42,8 +42,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Automated Workflows · Less Manual Effort",
     badge: "Process Automation",
     metricBadge: "Workflow Automation",
-    image: "https://images.unsplash.com/photo-1758519288548-046187014c85?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male tech professionals collaborating with laptops on automated workflows",
+    image: "/images/hero-how-we-work.jpg",
+    alt: "Young Nigerian tech architect and engineer reviewing automated workflow blueprints and milestones",
     teamNote: "Streamlining operations across Nigerian supply chains, logistics, and financial workflows.",
     overview:
       "Eliminate repetitive spreadsheets and manual phone chasing with reliable background pipelines, automated notifications, and real-time syncing between your operational databases.",

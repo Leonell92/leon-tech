@@ -4,8 +4,8 @@ const heroViews = [
   {
     id: "engineering",
     label: "Engineering Team",
-    image: "https://images.unsplash.com/photo-1758519288548-046187014c85?w=800&h=600&fit=crop&auto=format",
-    alt: "Nigerian software engineering team collaborating on laptop in modern office",
+    image: "/images/hero-engineering-team.jpg",
+    alt: "Nigerian software engineering team collaborating on laptops in modern office",
     tag: "Engineering Hub · Nigeria",
     title: "Dedicated Nigerian Engineering Team",
     metric: "Direct Collaboration",
@@ -16,8 +16,8 @@ const heroViews = [
   {
     id: "development",
     label: "Software Development",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male software engineer writing code on laptop in workspace",
+    image: "/images/hero-software-dev.jpg",
+    alt: "Young Nigerian male software engineer writing code on laptop in workspace",
     tag: "Custom Systems",
     title: "Software Built Around Your Workflow",
     metric: "Production-Ready",
@@ -28,8 +28,8 @@ const heroViews = [
   {
     id: "strategy",
     label: "How We Work",
-    image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male tech leader at modern workstation collaborating on project delivery",
+    image: "/images/hero-how-we-work.jpg",
+    alt: "Young Nigerian male tech lead and engineer collaborating on system architecture at modern workstation",
     tag: "Direct Engagement",
     title: "Clear Communication, Every Step",
     metric: "No Guesswork",

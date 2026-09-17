@@ -35,9 +35,8 @@ const steps = [
       "Documented Milestone Roadmap",
     ],
     badge: "System Design",
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop&auto=format",
-    alt: "African software architecture leads reviewing system specifications and database design around conference table",
+    image: "/images/hero-how-we-work.jpg",
+    alt: "Young Nigerian software architect and engineer reviewing system architecture and milestones on monitor",
     location: "Technical Architecture & Design",
     stageTag: "Phase 02: Design",
     metric: "Approved Blueprint",
@@ -56,9 +55,8 @@ const steps = [
       "Weekly Progress Reviews",
     ],
     badge: "Engineering",
-    image:
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male software engineer coding on laptop with test-driven development in modern tech workspace",
+    image: "/images/hero-software-dev.jpg",
+    alt: "Young Nigerian male software engineer coding clean maintainable software on laptop",
     location: "Core Software Engineering",
     stageTag: "Phase 03: Build",
     metric: "Working Software",

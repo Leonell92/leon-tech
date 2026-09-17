@@ -498,8 +498,8 @@ export default function HomePage() {
             <div className="order-2 lg:order-1 relative">
               <div className="rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
                 <img
-                  src="https://images.unsplash.com/photo-1758519288548-046187014c85?w=800&h=600&fit=crop&auto=format"
-                  alt="Nigerian software engineering team collaborating on laptop"
+                  src="/images/hero-engineering-team.jpg"
+                  alt="Nigerian software engineering team collaborating on laptops"
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />
