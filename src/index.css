@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-navy-950: #0b1929;
+  --color-navy-900: #0f2440;
+  --color-navy-800: #1a3a5c;
+  --color-navy-700: #1e4976;
+  --color-navy-600: #2563a8;
+  --color-teal-700: #0d766b;
+  --color-teal-600: #0f8a7d;
+  --color-teal-500: #0d9488;
+  --color-teal-400: #14b8a6;
+  --color-teal-50: #f0fdfa;
+
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Focus rings */
+:focus-visible {
+  outline: 2px solid #0d9488;
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

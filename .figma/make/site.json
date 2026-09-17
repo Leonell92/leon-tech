@@ -1,0 +1,10 @@
+{
+  "description": "This professional website showcases a technology and software services company, offering solutions in software development, automation, and IT support for businesses.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Proxy Test",
+    "company": "Figma Make Team",
+    "email": "proxy@example.com",
+    "phone": "+234 812 345 6789",
+    "industry": "Corporate Organization",
+    "service": "custom_software",
+    "budget": "5m_plus",
+    "timeline": "urgent",
+    "description": "Testing proxy contact form submission to ensure seamless integration.",
+    "referral": "",
+    "id": "inq_1789630786828_cjq8k4",
+    "createdAt": "2026-09-17T07:39:46.828Z",
+    "status": "new"
+  },
+  {
+    "name": "Leon Test",
+    "company": "Acme Corp",
+    "email": "leon@example.com",
+    "phone": "+234 800 123 4567",
+    "industry": "Healthcare",
+    "service": "custom_software",
+    "budget": "1m_5m",
+    "timeline": "1_3_months",
+    "description": "We need a secure patient portal for our clinic network with automated scheduling.",
+    "referral": "",
+    "id": "inq_1789630682288_7x3t7i",
+    "createdAt": "2026-09-17T07:38:02.288Z",
+    "status": "new"
+  }
+]
