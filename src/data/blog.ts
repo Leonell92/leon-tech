@@ -103,7 +103,7 @@ Starting with automation that meets these criteria — even for a narrow use cas
     authorRole: "Engineering & Operations",
     date: "2026-06-10",
     readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop&auto=format",
+    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=500&fit=crop&auto=format",
     content: `The typical analytics conversation starts with tools — which dashboard platform, which visualization library, which cloud service. The more useful conversation starts with decisions.
 
 What decisions does management need to make regularly, and what information would make those decisions better? Everything else — the technology, the data sources, the visualization approach — should follow from that.

@@ -40,8 +40,8 @@ export default function AboutPage() {
             <div className="relative">
               <div className="rounded-xl overflow-hidden border border-gray-100 shadow-md">
                 <img
-                  src="/images/hero-engineering-team.jpg"
-                  alt="Nigerian software engineering team collaborating on laptops"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&auto=format"
+                  alt="Software engineering team collaborating on laptops in modern office"
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />

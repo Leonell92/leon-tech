@@ -20,8 +20,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Nigerian Tech Talent · Reliable Code",
     badge: "Production Engineering",
     metricBadge: "Production-Ready",
-    image: "/images/hero-software-dev.jpg",
-    alt: "Young Nigerian male software engineer writing code on laptop in modern tech office",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop&auto=format",
+    alt: "Black male software engineer writing code on laptop in modern tech office",
     teamNote: "Engineered in Nigeria for reliability, data integrity, and scalable business operations.",
     overview:
       "Dedicated full-stack software engineers building responsive web systems, internal operations portals, and resilient transactional databases tailored to your business rules.",
@@ -42,8 +42,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Automated Workflows · Less Manual Effort",
     badge: "Process Automation",
     metricBadge: "Workflow Automation",
-    image: "/images/hero-how-we-work.jpg",
-    alt: "Young Nigerian tech architect and engineer reviewing automated workflow blueprints and milestones",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=600&fit=crop&auto=format",
+    alt: "Black tech professionals collaborating on automated business workflows",
     teamNote: "Streamlining operations across Nigerian supply chains, logistics, and financial workflows.",
     overview:
       "Eliminate repetitive spreadsheets and manual phone chasing with reliable background pipelines, automated notifications, and real-time syncing between your operational databases.",
@@ -152,8 +152,8 @@ const serviceVisualMap: Record<string, ServiceVisualData> = {
     tagline: "Dedicated Technical Team · Reliable Assistance",
     badge: "Technical Support",
     metricBadge: "Direct Support",
-    image: "https://images.unsplash.com/photo-1603969409447-ba86143a03f6?w=800&h=600&fit=crop&auto=format",
-    alt: "Black male IT specialist working at computer terminal providing rapid technical support",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop&auto=format",
+    alt: "Systems engineer managing cloud server infrastructure and network monitoring",
     teamNote: "Dependable technical assistance and system maintenance for growing businesses.",
     overview:
       "Keep your critical systems running smoothly. Our technical team handles routine monitoring, scheduled updates, troubleshooting and ongoing guidance.",
