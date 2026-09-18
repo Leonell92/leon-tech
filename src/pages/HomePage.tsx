@@ -32,18 +32,18 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative bg-white pt-16 pb-0 overflow-hidden">
+      <section className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16 lg:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center pt-8 pb-12 lg:pt-12 lg:pb-16">
             <div>
-              <div className="inline-flex items-center gap-2 bg-teal-50 text-teal-700 text-xs font-medium px-3 py-1.5 rounded mb-6 border border-teal-100">
+              <div className="inline-flex items-center gap-2 bg-teal-50 text-teal-700 text-xs font-medium px-3 py-1.5 rounded mb-4 border border-teal-100">
                 <span className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
                 Software &amp; Technology Services · Nigeria · Remote Worldwide
               </div>
-              <h1 className="font-display text-4xl sm:text-5xl lg:text-5xl xl:text-6xl text-navy-900 leading-[1.1] mb-6">
+              <h1 className="font-display text-4xl sm:text-5xl lg:text-5xl xl:text-6xl text-navy-900 leading-[1.1] mb-5">
                 Software that works the way your business works.
               </h1>
-              <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-lg">
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6 max-w-lg">
                 We design, build and support custom software, automate business processes and connect the systems your team relies on every day.
               </p>
               <div className="flex flex-col sm:flex-row items-start gap-3">
@@ -63,7 +63,7 @@ export default function HomePage() {
                   Explore Our Services
                 </Link>
               </div>
-              <div className="mt-10 pt-8 border-t border-gray-100 flex flex-wrap gap-2.5">
+              <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-2">
                 {company.capabilities.map((cap) => (
                   <span
                     key={cap}
@@ -84,17 +84,17 @@ export default function HomePage() {
       </section>
 
       {/* CREDIBILITY STRIP */}
-      <section className="bg-gray-50 border-y border-gray-100 py-10">
+      <section className="bg-gray-50 border-y border-gray-200/80 py-8 lg:py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-medium text-gray-500 text-center mb-6 max-w-xl mx-auto">
+          <p className="text-xs font-medium text-gray-500 text-center mb-5 max-w-xl mx-auto">
             Software, automation and technology services for businesses across Nigeria and internationally.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-6">
             {services.map((s) => (
               <Link
                 key={s.slug}
                 to={`/services/${s.slug}`}
-                className="flex flex-col items-center text-center gap-1.5 p-3 rounded hover:bg-white hover:border-gray-100 hover:shadow-sm border border-transparent transition-all group"
+                className="flex flex-col items-center text-center gap-1.5 p-3 rounded-lg hover:bg-white hover:border-gray-200 hover:shadow-xs border border-transparent transition-all group"
               >
                 <ServiceIcon slug={s.slug} size="sm" interactive />
                 <span className="text-xs text-gray-600 group-hover:text-navy-900 leading-tight transition-colors">{s.shortTitle}</span>
@@ -102,15 +102,15 @@ export default function HomePage() {
             ))}
           </div>
           {/* Industry sector chips */}
-          <div className="border-t border-gray-200 pt-7">
-            <p className="text-xs text-gray-500 text-center mb-4">
+          <div className="border-t border-gray-200 pt-5">
+            <p className="text-xs text-gray-500 text-center mb-3">
               Experience working across key sectors — financial services, logistics, education, healthcare, retail and professional services.
             </p>
-            <div className="flex flex-wrap items-center justify-center gap-2.5">
+            <div className="flex flex-wrap items-center justify-center gap-2">
               {["Financial Services", "Logistics & Transportation", "Education", "Healthcare", "Retail & E-Commerce", "Professional Services"].map((name) => (
                 <span
                   key={name}
-                  className="h-8 px-4 bg-white border border-gray-200 rounded flex items-center justify-center text-xs text-navy-800 font-medium shadow-2xs"
+                  className="h-7 px-3.5 bg-white border border-gray-200 rounded flex items-center justify-center text-xs text-navy-800 font-medium shadow-2xs"
                 >
                   {name}
                 </span>
@@ -121,7 +121,7 @@ export default function HomePage() {
       </section>
 
       {/* VALUE PROPOSITION / WHAT WE DO - REFINED IMMERSIVE WORKSPACE */}
-      <section className="relative py-20 lg:py-24 overflow-hidden text-white">
+      <section className="relative py-16 lg:py-20 overflow-hidden text-white">
         {/* Workspace Photo Background */}
         <div className="absolute inset-0 z-0">
           <img

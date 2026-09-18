@@ -6,8 +6,8 @@ import ServiceIcon from "@/components/ui/ServiceIcon";
 export default function ServicesPage() {
   return (
     <>
-      <section className="bg-white pt-16 pb-16 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section className="bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
           <div className="max-w-3xl">
             <p className="text-xs font-medium text-teal-600 uppercase tracking-widest mb-3">Our Services</p>
             <h1 className="font-display text-4xl sm:text-5xl text-navy-900 mb-6">
